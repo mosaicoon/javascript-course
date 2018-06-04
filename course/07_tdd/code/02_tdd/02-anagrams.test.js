@@ -1,3 +1,0 @@
-/*
-    Scrivete tramite TDD lo stesso algoritmo degli anagrammi visti in precedenza
- */
