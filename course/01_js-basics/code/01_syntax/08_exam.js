@@ -1,22 +1,25 @@
-function print() {
-    console.log(JSON.stringify(json, undefined, 2) + '\n');
+function print(obj) {
+    console.log(JSON.stringify(obj, undefined, 2) + '\n');
 }
 
 //Execution
 
-print();
+print(
+    getAllPlatforms()
+);
 
-getAllPlatforms();
-print();
+print(
+    getTotalImpressions()
+);
 
-getTotalImpressions();
-print();
+print(
+    getTotalClicks()
+);
 
-getTotalClicks()
-print();
+print(
+    getClicksMedia()
+);
 
-getClicksMedia()
-print();
-
-addClicks("2018-03-15T00:00:00.000Z", 3256);
-print();
+print(
+    addClicks("2018-03-15T00:00:00.000Z", 3256)
+);
